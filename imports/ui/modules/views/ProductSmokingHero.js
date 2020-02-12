@@ -35,11 +35,11 @@ function ProductSmokingHero(props) {
     <Container className={classes.root} component="section">
       <Button className={classes.button}>
         <Typography variant="h4" component="span">
-          Got any questions? Need help?
+          Have any questions? Need help?
         </Typography>
       </Button>
       <Typography variant="subtitle1" className={classes.link}>
-        We are here to help. Get in touch!
+        We have answers. Get in touch!
       </Typography>
       <img src="/img/productBuoy.svg" className={classes.buoy} alt="buoy" />
     </Container>

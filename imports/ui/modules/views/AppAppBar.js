@@ -78,14 +78,14 @@ function AppAppBar(props) {
             >
               {'Behind the Scenes'}
             </Link>*/}
-            <Link
+            {/* <Link
               variant="h6"
               underline="none"
               className={clsx(classes.rightLink, classes.linkSecondary)}
               href="/premium-themes/onepirate/sign-up/"
             >
-              {'Watch Now'}
-            </Link>
+              {'Behind the Scenes'}
+            </Link> */}
           </div>
         </Toolbar>
       </AppBar>
