@@ -60,7 +60,7 @@ function ProductValues(props) {
                 
               </Typography>
               <Typography variant="h5">
-                {'A compelling “melodramedy” about love, loss and redemption set against'}
+                {'A compelling “melodramedy” about love, loss and redemption set against '}
                 {'the social change of a small-town as it struggles to become a city.'}
               </Typography>
             </div>
