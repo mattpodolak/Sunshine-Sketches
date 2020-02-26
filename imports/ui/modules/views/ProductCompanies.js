@@ -63,33 +63,36 @@ function ProductCompanies(props) {
       </Typography> */}
       <div>
           <Grid container spacing={5}>
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={4}>
               <div className={classes.item}>
                 <img
                   src="/img/companies/NOHF.png"
-                  alt="suitcase"
+                  alt="North Ontario Heritage Fund"
                   className={classes.image2}
                 />
               </div>
             </Grid>
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={4}>
               <div className={classes.item}>
                 <img
                   src="/img/companies/CMF.jpeg"
-                  alt="graph"
+                  alt="Canada Media Fund"
                   className={classes.image}
                 />
               </div>
             </Grid>
-            {/* <Grid item xs={12} md={4}>
+            <Grid item xs={12} md={4}>
               <div className={classes.item}>
-                <img
-                  src="/img/productHowItWorks3.svg"
-                  alt="clock"
-                  className={classes.image}
-                />
+                <a href="https://www.cityofnorthbay.ca">
+                  <img
+                    src="/img/companies/NB.png"
+                    alt="North Bay"
+                    className={classes.image}
+                  />
+                </a>
               </div>
-            </Grid> */}
+            </Grid>
+
           </Grid>
         </div>
     </Container>
